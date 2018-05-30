@@ -1,0 +1,669 @@
+Close Ad 
+ 
+ 
+ consent.ads.queue.push(function(){IDG.GPT.addDisplayedAd("gpt-overlay","true");IDG.GPT.displayGoogleTagSlot('gpt-overlay');}); 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ consent.ads.queue.push(function(){IDG.GPT.addDisplayedAd("topleaderboard","true");$('#topleaderboard').responsiveAd({screenSize:'971 1115',scriptTags:[]});IDG.GPT.log("Creating ad: topleaderboard - [971 1115]");}); 
+ 
+ if(!$thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){$('.main-header').insertBefore($('#banner .ad'));} 
+ 
+ 
+ 
+ 
+ Don't Miss : Android apps: Best of the best FAQ: Microsoft 365 explained Mingis on Tech Resources/White Papers Job Search 
+ 
+ 
+ 
+ Search 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ computerworld 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   Sign In   |   Register 
+ 
+ 
+ 
+ 
+ 
+ Hi ! Here are the latest Insider stories. 
+ Mastering your Outlook inbox FAQ: How Edge 's Application Guard and isolated browsing work The best places to find Windows 10 ISOs What it costs to keep up with Windows 10 's upgrade tempo 
+ 
+ More Insider 
+ Sign Out 
+ 
+ 
+ 
+ 
+ 
+ $('.signin-register').hide();$('#welcome-message').hide(); 
+ 
+ 
+ 
+ 
+ Search for 
+ 
+ 
+ 
+ Suggestions for you 
+ 
+ 
+ 
+ Insider email   
+ 
+ 
+ 
+ 
+ 
+ Browsers 
+ Cloud Computing 
+ All Cloud Computing Cloud Security Cloud Storage Hybrid Cloud Private Cloud Public Cloud 
+ Computer Hardware 
+ All Computer Hardware Apple Mac Chromebooks Computer Peripherals PCs Processors Solid State Drives 
+ Consumerization of IT 
+ All Consumerization of IT Bring Your Own Device (BYOD) Home Tech Personal Technology 
+ Data Centers 
+ All Data Centers Data Storage Disaster Recovery High-Performance Computing (HPC) Infrastructure Management Virtualization 
+ Emerging Technology 
+ All Emerging Technology 3D Printing Artificial Intelligence Car Tech Environment Internet of Things Robotics Space Technology Wearables 
+ IT Leadership 
+ All IT Leadership Careers Digital Transformation H-1B Outsourcing Skills and Training 
+ Internet 
+ All Internet E-commerce Search Social Media Web Applications 
+ Mobile 
+ All Mobile Android Cellular Networks Mobile Apps Mobile Payments Mobile Security Smartphones Tablets Windows Mobile iOS 
+ Networking 
+ All Networking Network Security 
+ Operating Systems 
+ All Operating Systems Chrome OS Linux MacOS Windows 
+ Security 
+ All Security Application Security Cyber Crime Cyberattacks Encryption Endpoint Protection Malware Privacy 
+ Software 
+ All Software Analytics Big Data Business Intelligence CRM Collaboration Database Management Desktop Software Documentation Management Enterprise Architecture Java Development Office Software Open Source SaaS Social Business Unified Communications 
+ Vertical Industries 
+ All Vertical Industries Fintech Government IT Health Care Retail 
+ 
+ News Features Reviews Blogs Opinions Insider Shark Tank Slideshows Video Digital Magazine Digital Downloads Newsletters Computerworld Events Resources/White Papers 
+ 
+ if(!$thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){$('div.insider-signin').prependTo('section.topics nav.tools');} 
+ $(document).ready(function(){if($thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){$("nav ul li a.hasChildren").attr("href","#").addClass('notMobile');$('nav#sticky-nav ul.secondary').addClass('topnav');}if(!$thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){$("nav#sticky-nav > ul").switchClass("topnav","primary");}}); 
+ if(!$thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){$('#sticky-anchor, section.main, section.topics, section.tools-expand, #sticky-anchor-nav, nav.main').insertBefore($('#banner .ad'));$(document).ready(function(){$('#banner section.tools-expand').addClass('top-margin');});} 
+ 
+ $(document).ready(function(){$('body').addClass('insider-plus');var headerHeight=$('header#banner').height();$('header#banner nav#sticky-nav.main.no-stick').css("top",headerHeight);if(!$thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){var stickyHeaderHeight=$('section.topics').height()+$('#sticky-head.main').height();stickyHeaderHeight=stickyHeaderHeight-8;}var supportsOr ientationChange="onorientationchange"in window,orientationEvent=supportsOrientationChange?"orientationchange":"resize";if($thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){window.addEventListener(orientationEvent,function(){var top=$('section#sticky-head.main').offset().top;if(top<170){top=0;}else{top=top-50;}if(window.orientation==90||window.orientation==-90){window.scro llTo(0,top);}},false);}if($thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)&&$thm.deviceHeight()<768){if($('html').hasClass('touch')){$('#insider-popup.modal-box .modal-body').addClass('short');}else{$('#insider-popup.modal-box .modal-body').addClass('short-desk');}}if(!$thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){window.addEventListener(orientationEvent,functio n(){var top=$('section#sticky-head.main').offset().top;if(top<50){top=5;}else{top=top-40;}if(window.orientation==90||window.orientation==-90){window.scrollTo(0,top);}},false);}var ua=navigator.userAgent.toLowerCase();var isAndroid=ua.indexOf("android")>-1;window.addEventListener(orientationEvent,function(){if(isAndroid&&(screen.width==600||screen.width==960)){location.reload(tr ue);}},false);if($thm.deviceWidthAtLeast($thm.deviceBreakpoints.desktop)&&!$('html').hasClass('touch')){$("ul.social li.more-social").mouseenter(function(){$('ul.social > li').addClass('display-icon');});$("ul.social").mouseleave(function(){$('ul.social > li').removeClass('display-icon');});};if($thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)&&$('html').hasClass('touch') ){$("ul.social li.more-social").click(function(){$('ul.social > li').toggleClass('display-icon');});};$('.searchbox-input-class').each(function(){$(this).change(function(){var qStr=$(this).val();if($(this).val().indexOf('@')!=-1){qStr=qStr.replace(/@/g,' ');$(this).val(qStr);}});});});function sticky_relocate(){var headerHeight=$('header#banner').height();var winHeight=$(window ).height();if($thm.deviceWidthAtLeast($thm.deviceBreakpoints.wide)){winHeight=winHeight-40;if(window.orientation==90||window.orientation==-90){winHeight=winHeight+50;}}else if($thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)&&!$thm.deviceWidthAtLeast($thm.deviceBreakpoints.wide)){winHeight=winHeight+40;}else{winHeight=winHeight+10;}$('#banner nav#sticky-nav.main').css("he ight",winHeight);if($thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){var window_top=$(window).scrollTop();var div_top=$('#sticky-anchor').offset().top;if(window_top>div_top){$('#sticky-head').addClass('stick');$('#page-wrapper').addClass('top-pad');$('#banner .ad').addClass('top-margin');}else{$('#sticky-head').removeClass('stick');$('#page-wrapper').removeClass('top-pad ');$('#banner .ad').removeClass('top-margin');}}if(!$thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){$('section.topics').addClass('stick-topics');$('#sticky-head').addClass('stick-head');$('#page-wrapper').addClass('top-pad');$('#banner .ad').addClass('top-margin');$('#banner section.tools-expand').addClass('search');var window_top=$(window).scrollTop();var div_top=$('#s ticky-anchor').offset().top+30;if(window_top>div_top){$('#sticky-head').addClass('stick');$('.topics.stick-topics, #search-form').addClass('remove');$('li.search-icon').fadeOut("fast");}else{$('#sticky-head').removeClass('stick');$('.topics.stick-topics, #search-form').removeClass('remove');$('li.search-icon').fadeIn("fast");}}if($thm.deviceWidthAtLeast($thm.deviceBreakpoints.t ablet)){if($('#sticky-head').hasClass('stick')){var stickyHeaderHeight=$('section.main').height();stickyHeaderHeight=52;$('header#banner nav#sticky-nav.main').css("top",stickyHeaderHeight);$('#sticky-nav').addClass('stick');$('#sticky-nav').removeClass('no-stick');}else{stickyHeaderHeight=$('header#banner').height();$('header#banner nav#sticky-nav.main').css("top",stickyHeaderH eight);$('#sticky-nav').removeClass('stick');$('#sticky-nav').addClass('no-stick');}}if(!$thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){var stickyHeaderHeight=$('section.topics').height()+$('#sticky-head.main.stick-head').height();stickyHeaderHeight=stickyHeaderHeight-8;$('header#banner nav#sticky-nav.main').css("top",stickyHeaderHeight);$('#sticky-nav').addClass('stic k');if($('#sticky-head').hasClass('stick')){$('#sticky-head.stick').siblings('#sticky-nav').addClass('nav-stick');$('#sticky-head').siblings('#sticky-nav').removeClass('no-stick');}else{$('#sticky-head').siblings('#sticky-nav').removeClass('nav-stick');$('#sticky-head').siblings('#sticky-nav').addClass('no-stick');}}}try{performance.mark("mark_sticky_nav_nsdr_ready");}catch(e){ console.log("Error saving performance mark -- this function may not be supported in this browser");}$(function(){$(window).scroll(sticky_relocate);sticky_relocate();}); 
+ 
+ 
+ 
+ 
+ × 
+ 
+ 
+ $(document).ready(function(){$('a[data-link]').click(function(){var dataLink=$(this).attr('data-link');var toKeep='div[data-link="'+dataLink+'"]';$('div[data-link]').not(toKeep).hide();if($(this).hasClass('link-transition')){$(toKeep).fadeIn(800);}else{$(toKeep).show();}return false;});}); 
+ 
+ 
+ Close 
+ 
+ 
+ 
+ $(document).ready(function(){var appendthis=("<div class='modal-overlay modal-close'> </ div > ");if($thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){$('.modal-box').css({top:10,left:0});}if(!$thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){$('.modal-box').height($(document).height());$('.modal-box').css('top','0');}var userAg=navigator.userAgent;$('a[data-modal-id]').click(function(e){e.preventDefault();$('body').append(appendthis);$('.modal-overlay').fade To(500,0.9);$('.modal-overlay').height($(document).height());var modalBox=$(this).attr('data-modal-id');if($(".modal-box").hasClass('triggered')||(userAg.indexOf("Firefox")!=-1)){$('#'+modalBox).fadeIn($(this).data());}else{$('#'+modalBox).toggle('slide',{direction:'up'},800);}if(!$thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){$("html, body").animate({scrollTop:0},700) ;$('a.btn.continue-on').click(function(){$('html, body').animate({scrollTop:0},500);});return false;}if(navigator.userAgent.match(/(iPad)/)){$("html, body").animate({scrollTop:0},500);}});$(".modal-close, .modal-overlay").click(function(){$('.select2-drop').css('display','none');$(".modal-overlay").fadeOut(500,function(){$(".modal-overlay").remove();});if($(".modal-box").hasCla ss('triggered')||(userAg.indexOf("Firefox")!=-1)){$(".modal-box").fadeOut(500);}else{$('.modal-box').toggle('slide',{direction:'up'},800);}});}); 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ consent.ads.queue.push(function(){IDG.GPT.addDisplayedAd("ticker","true");$('#ticker').responsiveAd({screenSize:'971 1115',scriptTags:[]});IDG.GPT.log("Creating ad: ticker - [971 1115]");}); 
+ 
+ 
+ 
+ 
+ News 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Gartner: Enterprises should demand 2 full years of Windows 10 support 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ video 
+ 
+ 
+ TSB phishing attacks | Salted Hash Ep 33 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ WWDC 2018 preview: What can we expect? 
+ Apple’s annual developers conference is the most important event in the company calendar, and it begins June 4. Aside from iOS 12, what’s on tap? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ The Zen of Mobile By  Evan Schuman 
+ 
+ 
+ Amazon 's Echo privacy flub has big implications for IT 
+ Amazon has confirmed that one of its Echo devices recorded a family's conversation and then messaged it to a random person on the family's contact list. The implications are terrifying. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Woody on Windows By  Woody Leonhard 
+ 
+ 
+ Avast blames Microsoft for Win10 1803 upgrade blue screens, nonsensical options 
+ Avast says it has fixed the problem that triggered Win10 April 2018 Update installation blue screens and dysfunctional 'boot to another operating system' options.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Woody on Windows By  Woody Leonhard 
+ 
+ 
+ Microsoft pushing Win10 version 1803 to PCs specifically set to avoid it 
+ We saw it happen three times with Win10 1709. Now we’re getting reports of Win10 1803 being pushed to Pro PCs with “branch readiness” set to Semi-Annual Channel -- the setting that’s supposed to specifically keep 1803 away until it’s... 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Android Intelligence By  JR Raphael 
+ 
+ 
+ Fuchsia and the future of Android 
+ Google's mysterious new operating system is assumed to be a replacement for Android and Chrome OS — but what if the situation isn't actually so simple? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Alexa gets smart meeting scheduling, a boost to its workplace presence 
+ Amazon says the new Smart Scheduling Assistant feature allows the popular virtual assistant to cut the time needed to manage personal schedules in the office. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Apple Holic By  Jonny Evans 
+ 
+ 
+ Surprise: Next iPhone will be even faster than anything else 
+ Surprising no one, it turns out that the next-generation iPhone will put an even bigger performance gap between itself and the rest of the industry. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ How your web browser tells you when it 's safe 
+ As Google moves to change how its Chrome browser flags insecure websites, rival browsers may be forced to follow suit. Here's how other browsers currently handle website security and what changes they have coming. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Woody on Windows By  Woody Leonhard 
+ 
+ 
+ Is Microsoft avoiding the Win10 (1803) upgrade on PCs running Avast? 
+ Several Win10 version 1803 upgraders have raised a red flag about Avast antivirus: After running the upgrade, PCs hit blue screens with nonsensical options. Now, there appears to be an official note on the Avast forum that says... 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Slack adds Actions feature, highlights dev community growth 
+ As the company’s first developer conference, Spec, kicked off in San Francisco, Slack stressed efforts to integrate its software with third-party apps. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Android Intelligence By  JR Raphael 
+ 
+ 
+ Will Android P lead to faster upgrades? 3 words to remember 
+ Everyone's talking about how Android P will mark the end of slow Android upgrades, but this saga has more layers than most people seem to realize. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Apple Holic By  Jonny Evans 
+ 
+ 
+ WWDC: The evolution of Apple’s Siri 
+ A look at the many Siri enhancements Apple has introduced at WWDC over the years. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ video 
+ 
+ 
+ How deception technologies use camouflage to attract attackers | Salted Hash Ep 26 
+ Host Steve Ragan reports from the show floor at RSA 2018, where talks with Chris Roberts, chief security architect at Acalvio Technologies, about the benefits and misconceptions of deception technologies.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Google details how it will overturn encryption signals in Chrome 
+ Google has fleshed out its plans to upend the way browsers warn users of insecure websites, spelling out gradual steps the company will take with Chrome. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ FAQ: Microsoft 365 explained 
+ Microsoft has bundled together Windows 10, Office 365 and a variety of management tools to create its newest subscription suite, Microsoft 365 (M365). Here's what the bundle includes, how much it costs and what it means for the... 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Businesses join to create enterprise standard for blockchain networks 
+ Enterprise Ethereum Alliance, a group made up of 500 businesses, has published its first standard for a business-centric distributed ledger that promises to speed up transactions while increasing privacy.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Woody on Windows By  Woody Leonhard 
+ 
+ 
+ Yet another bunch of Microsoft Surfaces don’t work with Win10 version 1803 
+ If you shelled out $3,000 to $4,500 for a Surface Studio, you may be a bit disconcerted to discover that many don’t work with the new Windows 10 April 2018 Update, version 1803. Mice and keyboards keep disconnecting.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ What is blockchain? The most disruptive tech in decades 
+ The distributed ledger technology, better known as blockchain, has the potential to eliminate huge amounts of record-keeping, save money and disrupt IT in ways not seen since the internet arrived. 
+ 
+ 
+ Load More 
+ 
+ 
+ IDGE.LoadMore.init("load-more-index",".main-col .article, .main-col .mediaresource, .main-col .media",{def:"loadMoreList",pageType:"index",typeIds:"2,7",typeSlug:"news",days:-60,pageSize:20,offset:0,ignoreExcludedIds:true,brandContentOnly:false,includeBlogTypeIds:"1,3",includeVideo:true,liveOnly:true,includeMediaResource:true,isInsiderIndex:true,videoWeight:2,sortOrder:"date"}) ; 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Recommended for You
+ 
+ 
+ 
+ 
+ Microsoft drops support extension for Windows 10 Enterprise 
+ 
+ 
+ 
+ 
+ Cisco shakes up collaboration efforts; morphs Spark into Webex 
+ 
+ 
+ 
+ 
+ Apple has become an HR issue for enterprise IT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Popular Resources 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ White Paper 
+ 
+ 10 Things Your Next Firewall Must Do 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ White Paper 
+ 
+ 4 Reasons Remote Monitoring is Your Best Move to Better Service 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Data Sheet Sponsored 
+ 
+ Automation Network Automation Datasheet 
+ 
+ 
+ Video/Webcast Sponsored 
+ 
+ Unified Communications in The Cloud: Every Journey is Different 
+ 
+ 
+ eGuide Sponsored 
+ 
+ 8 Analytics Trends to Watch in 2018 for the Intelligent Enterprise 
+ 
+ 
+ 
+ See All 
+ 
+ 
+ 
+ 
+ 
+ 
+ Go 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ What Readers Like 
+ 
+ 
+ 
+ 20 great uses for an old Android device 
+ 
+ 
+ 
+ 
+ Windows 10 quick tips: 10 ways to speed up your PC 
+ 
+ 
+ 
+ 
+ How to fix iCloud sync in seconds 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Sponsored Links 
+ 
+ 
+INSTANTLY dtSearch® TERABYTES of FILE+EMAIL+DB+WEB DATA; reviews  & evals
+ 
+ 
+ 
+Online Master of Science in Information Systems at Northwestern University
+ 
+ 
+ 
+What are you doing to accelerate IT agility? Learn about the IT model that serves as a catalyst for digital transformation.
+ 
+ 
+ 
+Unlock the potential of your data. How well are you harnessing information to improve business outcomes? A new CIO Playbook will help.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Computerworld 
+  The Voice of Business Technology 
+ 
+ Follow us 
+ 
+ 
+ 
+ 
+ 
+ Browsers 
+ Cloud Computing 
+ Computer Hardware 
+ Consumerization of IT 
+ Data Centers 
+ Emerging Technology 
+ IT Leadership 
+ Internet 
+ Mobile 
+ Networking 
+ Operating Systems 
+ Security 
+ Software 
+ Vertical Industries 
+ 
+ 
+ 
+ News Features Reviews Blogs Opinions Insider Shark Tank Slideshows Video Newsletters Computerworld Events Resources/White Papers 
+ 
+ 
+ 
+ 
+ 
+ About Us 
+ Contact 
+ Privacy Policies 
+ Editorial Beats 
+ Advertising 
+ Careers at IDG 
+ Ad Choices 
+ E-commerce Affiliate Relationships 
+ Cookie Policy 
+ 
+ 
+ 
+ 
+ 
+ 
+ Copyright   © 2018 IDG Communications, Inc. 
+ 
+ 
+ Explore the IDG Network  descend 
+ CIO Computerworld CSO GameStar Greenbot IDC IDG IDG Connect IDG TechNetwork IDG.TV IDG Ventures Infoworld IT News ITwhitepapers ITworld JavaWorld LinuxWorld Macworld Network World PCWorld TechConnect TechHive 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ consent.ads.queue.push(function(){IDG.GPT.addDisplayedAd("mobilewelcomead","true");$('#mobilewelcomead').responsiveAd({screenSize:'971 1115',scriptTags:[]});IDG.GPT.log("Creating ad: mobilewelcomead - [971 1115]");}); 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ bk_allow_multiple_calls=true;var blueKaiId=14339;var blueKaiPort=10;var brandCode="ctw";var regUrl="https://regdev.idge.int/api/"
+var daysToRefresh=30;var bk_debug_log=false;regUrl="https://reg.idgenterprise.com/api/";daysToRefresh=30;if(typeof(s)!='undefined'){bk_addPageCtx("pageType",(typeof(s.pageType)!='undefined')?s.pageType:'');}bk_addPageCtx("cmpy","[]");bk_addPageCtx('tid','');params=getUrlParams('phint');if(Object.keys(params).length>0){bk_addPageCtx("idg_eid",params['idg_eid']);bk_addPageCtx("newt",params['newt']);bk_addPageCtx("isnl","1");}try{IDG.bkCoreApi.start();}catch(e){bk_doJSTag(blueKaiId,blueKaiPort);if(window.console&&window.console.log){window.console.log("Error Occured While Processing Profile Siubmission")}}$('article, #slideshowCarousel').on('cli ck','.product-list-price, .btn-amazon, .productLink',function(e){var $linkEl=$(e.target);var po=$linkEl.data('po');if($.inArray(po,['amazon','vendor','other'])>=0){if(po=='amazon'){var prCat=$linkEl.data('bkc');if(typeof prCat!='undefined'){bk_addPageCtx('event','AmazonClick'+prCat);}}var prMfr=$linkEl.data('bkmfr');if(typeof prMfr!='undefined'){bk_addPageCtx('event','eCommerceMFR'+prMfr);}var prVndr=$linkEl.data('bkvndr');if(typeof prVndr!='undefined'){bk_addPageCtx('event','eCommerceClickVendor'+prVndr);}bk_doJSTag(34202,1);}}); 
+ 
+ 
+ 
+ consent.ads.queue.push(function(){IDG.GPT.addDisplayedAd("catfish","true");$('#catfish').responsiveAd({screenSize:'971 1115',scriptTags:[]});IDG.GPT.log("Creating ad: catfish - [971 1115]");}); 
+ 
+ 
+ 
+ consent.ads.queue.push(function(){IDG.GPT.addDisplayedAd("gpt-skin","true");IDG.GPT.displayGoogleTagSlot('gpt-skin');}); 
+ 
+ 
+ $("div.lazyload_ad").lazyLoadAd({threshold:500,forceLoad:false,onLoad:false,onComplete:false,timeout:1500,debug:false,xray:false}); 
+ $('#resources-sponsored-links').addClass('show'); 
+ 
+ var _comscore=_comscore||[];_comscore.push({c1:"2",c2:"6035308",c3:"",c6:"Article: News"});(function(){var s=document.createElement("script"),el=document.getElementsByTagName("script")[0];s.async=true;s.src=(document.location.protocol=="https:"?"https://sb":"http://b")+".scorecardresearch.com/beacon.js";el.parentNode.insertBefore(s,el);})(); 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ a=top;f=self;if(a!=f){a.location=f.location;}
